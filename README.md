@@ -7,8 +7,10 @@ Simplifies analyzing the MOTOTRBO Extended Command and Management Protocol (XCMP
 
  * Copy `*.lua` to the Wireshark folder
  * Add on the end of init.lua 
-   dofile(DATA_DIR.."xnl.lua")
-   dofile(DATA_DIR.."xcmp.lua")
+ 
+dofile(DATA_DIR.."xnl.lua")
+dofile(DATA_DIR.."xcmp.lua")
+ 
  * Happy analyzing!
 
 
