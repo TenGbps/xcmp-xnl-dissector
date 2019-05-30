@@ -5,8 +5,10 @@ Simplifies analyzing the MOTOTRBO Extended Command and Management Protocol (XCMP
 
 ## Getting Started
 
- * Copy `*.lua` to `~/.config/wireshark/plugins`
- * Reload Lua plugins (or restart Wireshark)
+ * Copy `*.lua` to the Wireshark folder
+ * Add on the end of init.lua 
+   dofile(DATA_DIR.."xnl.lua")
+   dofile(DATA_DIR.."xcmp.lua")
  * Happy analyzing!
 
 
